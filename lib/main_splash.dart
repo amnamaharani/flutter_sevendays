@@ -11,7 +11,7 @@ class MainSplash extends StatelessWidget {
         padding: const EdgeInsets.only(top: 90, left: 50),
         child: Column(
           children: [
-            button('Day 1', () => Navigator.pushNamed(context, '/firststarted')),
+            button('Day 1', () => Navigator.pushNamed(context, '/firstsplash')),
             button('Day 2', () => Navigator.pushNamed(context, '/firststarted')),
             button('Day 3', () => Navigator.pushNamed(context, '/firststarted')),
             button('Day 4', () => Navigator.pushNamed(context, '/firststarted')),
