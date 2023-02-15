@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sevendays/pages/first_started.dart';
+import 'package:sevendays/pages/second_started.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +11,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstStarted(),
+      initialRoute: '/',
+      routes: {
+        '/' : (context) =>  const FirstStarted(),
+        '/secondstarted' : (context) => const SecondStarted(),
+      },
     );
   }
 }
