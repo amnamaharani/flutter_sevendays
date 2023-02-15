@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:sevendays/pages/second_started.dart';
 
 class FirstStarted extends StatelessWidget {
   const FirstStarted({Key? key}) : super(key: key);

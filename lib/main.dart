@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sevendays/main_splash.dart';
 import 'package:sevendays/pages/first_started.dart';
 import 'package:sevendays/pages/second_started.dart';
 
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/' : (context) =>  const FirstStarted(),
+        '/' : (context) =>  const MainSplash(),
+        '/firststarted' : (context) => const FirstStarted(),
         '/secondstarted' : (context) => const SecondStarted(),
       },
     );
