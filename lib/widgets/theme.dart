@@ -35,3 +35,44 @@ TextStyle descTextStyle = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.w300,
 );
+
+//Rating one
+TextStyle foodTextStyle = GoogleFonts.poppins(
+  color: whiteColor,
+  fontSize: 24,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle priceTextStyle = GoogleFonts.poppins(
+  color: whiteColor,
+  fontSize: 20,
+);
+
+TextStyle questionTextStyle = GoogleFonts.poppins(
+  color: whiteColor,
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
+);
+
+TextStyle rateButtonTextStyle = GoogleFonts.poppins(
+  color: whiteColor,
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);
+
+//Rating two
+TextStyle firstTextStyle = GoogleFonts.poppins(
+  color: const Color(0xff121622),
+  fontSize: 20,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle subTextStyle = GoogleFonts.poppins(
+  color: const Color(0xff808EAB),
+  fontSize: 16,
+);
+
+TextStyle messageTextStyle = GoogleFonts.poppins(
+  color: const Color(0xff808EAB),
+  fontSize: 14,
+);

@@ -15,7 +15,7 @@ class MainSplash extends StatelessWidget {
             button('Day 2', () => Navigator.pushNamed(context, '/firststarted')),
             button('Day 3', () => Navigator.pushNamed(context, '/firstsignin')),
             button('Day 4', () => Navigator.pushNamed(context, '/firstempty')),
-            button('Day 5', () => Navigator.pushNamed(context, '/firststarted')),
+            button('Day 5', () => Navigator.pushNamed(context, '/firstrating')),
             button('Day 6', () => Navigator.pushNamed(context, '/firststarted')),
             button('Day 7', () => Navigator.pushNamed(context, '/firststarted'))
           ],
