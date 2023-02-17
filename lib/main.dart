@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sevendays/main_splash.dart';
+import 'package:sevendays/pages/first_empty.dart';
 import 'package:sevendays/pages/first_signin.dart';
 import 'package:sevendays/pages/first_splash.dart';
 import 'package:sevendays/pages/first_started.dart';
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
         '/firststarted' : (context) => const FirstStarted(),
         '/secondstarted' : (context) => const SecondStarted(),
         '/firstsignin' :(context) => const SignIn(),
-        '/secondsignin' :(context) => SecondSignin(),
+        '/secondsignin' :(context) => const SecondSignin(),
+        '/firstempty' :(context) => const FirstEmpty(),
       },
     );
   }
