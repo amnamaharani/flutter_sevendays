@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondSignin extends StatefulWidget {
+  const SecondSignin({Key? key}) : super(key: key);
+
   @override
   State<SecondSignin> createState() => _SecondSigninState();
 }
