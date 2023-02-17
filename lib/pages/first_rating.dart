@@ -62,18 +62,23 @@ class FirstRating extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 90,),
-            Center(
-              child: Container(
-                height: 55,
-                width: 211,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(60),
-                  color: const Color(0xff34D186)
-                ),
-                child: Align(
-                  child: Text(
-                    'Rate Now',
-                    style: rateButtonTextStyle,
+            InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, '/secondrating');
+              },
+              child: Center(
+                child: Container(
+                  height: 55,
+                  width: 211,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(60),
+                    color: const Color(0xff34D186)
+                  ),
+                  child: Align(
+                    child: Text(
+                      'Rate Now',
+                      style: rateButtonTextStyle,
+                    ),
                   ),
                 ),
               ),
