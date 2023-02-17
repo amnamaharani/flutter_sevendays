@@ -85,7 +85,9 @@ class SignIn extends StatelessWidget {
                     borderRadius: BorderRadius.circular(17)
                   )
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/secondsignin');
+                },
                 child: Text(
                   'Sign In',
                   style: GoogleFonts.openSans(
