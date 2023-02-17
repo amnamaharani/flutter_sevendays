@@ -28,17 +28,22 @@ class FirstEmpty extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 50,),
-            Container(
-              height: 55,
-              width: 200,
-              decoration: BoxDecoration(
-                color: const Color(0xffF94593),
-                borderRadius: BorderRadius.circular(17),
-              ),
-              child: Align(
-                child: Text(
-                  'Done',
-                  style: buttonTextStyle,
+            InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, '/secondempty');
+              },
+              child: Container(
+                height: 55,
+                width: 200,
+                decoration: BoxDecoration(
+                  color: const Color(0xffF94593),
+                  borderRadius: BorderRadius.circular(17),
+                ),
+                child: Align(
+                  child: Text(
+                    'Done',
+                    style: buttonTextStyle,
+                  ),
                 ),
               ),
             )
